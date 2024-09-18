@@ -1,5 +1,5 @@
 {
-	"name": "willherzog/php-util",
+	"name": "willherzog/custom-php-cs-fixer-rules",
 	"description": "A few custom rules for use with PHP CS Fixer.",
     "type": "library",
     "license": "MIT",
