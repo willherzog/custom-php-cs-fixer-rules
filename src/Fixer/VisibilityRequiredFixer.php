@@ -25,6 +25,11 @@ class VisibilityRequiredFixer extends AbstractFixer implements ConfigurableFixer
 {
 	use ConfigurableFixerTrait;
 
+	public function getName(): string
+	{
+		return 'WHFixer/visibility_required';
+	}
+
 	public function getDefinition(): FixerDefinitionInterface
 	{
 		return new FixerDefinition(

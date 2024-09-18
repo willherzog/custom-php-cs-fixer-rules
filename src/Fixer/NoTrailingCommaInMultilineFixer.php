@@ -25,6 +25,11 @@ class NoTrailingCommaInMultilineFixer extends AbstractFixer implements Configura
 {
 	use ConfigurableFixerTrait;
 
+	public function getName(): string
+	{
+		return 'WHFixer/no_trailing_comma_in_multiline';
+	}
+
 	public function getDefinition(): FixerDefinitionInterface
 	{
 		return new FixerDefinition(

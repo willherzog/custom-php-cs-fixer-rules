@@ -19,6 +19,11 @@ use PhpCsFixer\Tokenizer\{Token,Tokens};
  */
 class EmptyBodyFixer extends AbstractFixer implements WhitespacesAwareFixerInterface
 {
+	public function getName(): string
+	{
+		return 'WHFixer/empty_body';
+	}
+
 	public function getDefinition(): FixerDefinitionInterface
 	{
 		return new FixerDefinition(
